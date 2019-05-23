@@ -1,0 +1,165 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+.header-1{
+    background: url(img/hero.jpg);
+    position:relative;
+}
+
+.layer {
+    background-color: rgba(19, 19, 17, 0.89);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.first-icons{
+    width:25px;
+    height:25px;
+}
+
+.first-h1{
+    font-size: 50px;
+    font-family: "metropolis-regular", sans-serif;
+}
+
+
+.one{
+    padding:0;
+    margin:0;
+    
+}
+
+.logo-img{
+    width: 300px;
+    height: 100px;
+}
+.header__nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "metropolis-medium", sans-serif;
+    font-size: 15px;
+}
+.header__nav li {
+    display: inline-block;
+    position: relative;
+    padding: 0 1.5rem;
+    margin-top: 30px;
+}
+.header__nav li a{
+    text-decoration: none;
+    color:#8B8B8B;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.header__nav li a:hover{
+    color: white !important;
+    transition: 0.3s;
+}
+.header__nav li a p{
+    margin-left: 10px;
+    font-size: 10px;
+    margin-bottom: 0rem;
+    margin-top: 5px;
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.header__nav li a p:hover{
+    color:white !important;
+    -ms-transform: rotate(270deg); 
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    transition: 0.3s;
+}
+.header__nav li.has-children {
+    padding-right: 2rem;
+}
+@media only screen and (min-width: 801px){
+.header__nav .has-children ul {
+    display: block !important;
+}
+}
+.header__nav li ul  {
+    width: 150px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 10px 25px;
+    background-color: #050505;
+    border-radius: 0 0 3px 3px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+}
+.has-children:hover .sub-menu{
+    opacity:1 ;
+    visibility:visible ;
+    margin-top:5px ;
+
+}
+.header__nav li ul li {
+    display: block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    min-height: 33px;
+    width: 100%;
+}
+.img-1:hover, .img-2:hover, .img-3:hover{
+    opacity: .6;
+}
+
+.img-1{
+    background-image: url(img/guitarman.jpg);
+    width: 760px;
+    height: 600px;
+    background-size: cover;
+}
+.img-2{
+    background-image: url(img/watch.jpg);
+    height: 300px; 
+    width: 350px;
+    background-size: cover;
+}
+.img-3{
+    background-image: url(img/car.jpg);
+    height: 300px; 
+    width: 350px;
+    background-size: cover;
+}
+.btn-1{
+    font-family: "metropolis-bold", sans-serif;
+    background: #01aef0;
+    border-radius: 0;
+    border: 0;
+}
+.text-1{
+    width: 550px;
+    height: 120px;   
+}
+.child-1{
+    width: 370px;
+}
+.child-img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.p1{
+    font-family: "metropolis-bold", sans-serif;
+    font-weight: bold;
+    margin-left:20px;
+    height: 150px;
+    font-size: 18px;
+    color:#656565;
+}
